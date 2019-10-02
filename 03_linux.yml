@@ -10,4 +10,4 @@
   tasks:
   - name: Set timezone
     timezone:
-      name: {{ timezone }}
+      name: "{{ timezone }}"
