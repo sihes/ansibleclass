@@ -3,10 +3,10 @@
   connection: local
   vars:
     location: northeurope
-    virtual_network_name: webserver_sihes
+    virtual_network_name: webserver_user1
     subnet: Webserver
-    resource_group: webserver_sihes
-    domain_sub: sihes1308
+    resource_group: webserver_user1
+    domain_sub: domainuser1
 
   vars_prompt:
     - name: adminUser
