@@ -2,8 +2,8 @@
 - hosts: localhost
   vars:
    host: "10.172.10.1"
-   username: "userxx"
-   vlanid: "xxx"
+   username: "user1"
+   vlanid: "101"
    vdom: "root"
    ssl_verify: "False"
   vars_prompt:
