@@ -115,8 +115,11 @@
 - hosts: webserver
   become: yes
   vars:
+    websiteheader: "Ansible Playbook"
+    websiteauthor: "Simon Hessellund"
   tasks:
   - name: Install Apache
     dnf:
       name: httpd
       state: latest
+    
